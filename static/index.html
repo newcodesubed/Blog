@@ -3,11 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog mine</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>My Blog Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>GOOOOOOooooooooooooooooooooo</h1>
-    
+    <div class="container">
+        <header>
+            <h1>My Blog</h1>
+        </header>
+        <main>
+            <article>
+                <h2>Blog Post Title</h2>
+                <p>This is the content of the blog post. It can be multiple paragraphs long and contain various types of content like text, images, and more.</p>
+            </article>
+            <section class="comments">
+                <h3>Comments</h3>
+                <form id="commentForm">
+                    <textarea id="comment" placeholder="Add your comment" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+                <div id="commentList"></div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 My Blog. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
